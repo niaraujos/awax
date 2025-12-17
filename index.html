@@ -3,11 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Awax - Agência de Design e Soluções Digitais"
-    />
-    <link rel="icon" href="assets/img/Logo.png" type="image/png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,78 +14,54 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Awax - Design & Communication</title>
+    <title>Awax</title>
   </head>
   <body>
     <header>
       <div class="header-content">
-        <a href="#home" aria-label="Ir para o inicio">
-          <img class="img" src="assets/img/Logo.png" alt="Logo da Awax"
-        /></a>
-        <nav aria-label="Navegação principal">
+        <img class="img" src="assets/img/Logo.png" alt="" />
+        <nav>
           <ul class="ulHeader">
-            <li><a class="hlink" href="#home">HOME</a></li>
-            <li><a class="hlink" href="#about">ABOUT US</a></li>
-            <li><a class="hlink" href="#services">SERVICES</a></li>
-            <li><a class="hlink" href="#projects">OUR PROJECTS</a></li>
-            <li><a class="hlink" href="#team">OUR TEAM</a></li>
-            <li><a class="hlink" href="#clients">HAPPY CLIENTS</a></li>
-            <li><a class="hlink" href="#price">PRICE</a></li>
-            <li><a class="hlink" href="#facts">SOME FACTS</a></li>
+            <li><a class="hlink" href="">HOME</a></li>
+            <li><a class="hlink" href="">ABOUT US</a></li>
+            <li><a class="hlink" href="">SERVICES</a></li>
+            <li><a class="hlink" href="">OUR PROJETS</a></li>
+            <li><a class="hlink" href="">OUR TEAM</a></li>
+            <li><a class="hlink" href="">HAPPY CLIENTS</a></li>
+            <li><a class="hlink" href="">PRICE</a></li>
+            <li><a class="hlink" href="">SOME FACTS</a></li>
             <li><a class="hlink" href="#contact">CONTACT US</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <!-- aria-label para acessibilidade -->
+
     <main>
-      <section class="banner" id="home" aria-label="Banner principal">
+      <section class="banner">
         <div class="sliders">
-          <article class="slide">
+          <div class="slide">
             <div class="slidearea">
               <h1>Design is About<br /><span>Communication</span></h1>
-              <p>Call us: <a href="tel:+0001234567">+00 0 1234 5678</a></p>
-              <a class="blink button" href="#">GET IN TOUCH!</a>
+              <p>Call us: +00 0 1234 5678</p>
+              <a class="blink" href="#" class="button">GET IN TOUCH!</a>
             </div>
-          </article>
-          <article class="slide" aria-label="Slide 2">
-            <div class="slidearea">Slide 2</div>
-          </article>
-          <article class="slide" aria-label="Slide 3">
-            <div class="slidearea">Slide 3</div>
-          </article>
+          </div>
+          <div class="slide">2</div>
+          <div class="slide">3</div>
         </div>
 
-        <div class="pointers" role="tablist" aria-label="Navegação de slides">
-          <button
-            class="pointer active"
-            role="tab"
-            aria-selected="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            class="pointer"
-            role="tab"
-            aria-selected="false"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            class="pointer"
-            role="tab"
-            aria-selected="false"
-            aria-label="Slide 3"
-          ></button>
+        <div class="pointers">
+          <div class="pointer active"></div>
+          <div class="pointer"></div>
+          <div class="pointer"></div>
         </div>
       </section>
 
-      <section class="default light" id="about">
-        <header>
-          <h2 class="title">About us</h2>
-          <p class="description">Who we are?</p>
-        </header>
-
+      <section class="default light">
+        <div class="title">About us</div>
+        <div class="description">Who we are?</div>
         <div class="body">
-          <article class="about">
+          <div class="about">
             <p>
               Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris
               que eu tomo, mas ninguém vê os tombis que eu levo! Leite de
@@ -102,185 +73,170 @@
             </p>
 
             <a class="blink" href="">LEARN MORE</a>
-          </article>
+          </div>
 
-          <figure>
-            <img
-              class="imgB"
-              src="assets/media/Sem título 2.png"
-              alt="Ilustração sobre a empresa"
-            />
-          </figure>
-          <!-- trocar pra video -->
+          <img class="imgB" src="assets/media/Sem título 2.png" alt="" />
         </div>
       </section>
 
-      <section class="default dark" id="services">
-        <header>
-          <h2 class="title">Services</h2>
-          <p class="description">services that we peovid</p>
-        </header>
-
+      <section class="default dark">
+        <div class="title">Services</div>
+        <div class="description">services that we peovid</div>
         <div class="body">
           <div class="services">
-            <article class="service">
-              <img src="assets/img/medalha.png" alt="" aria-hidden="true" />
-              <h3>High quality design</h3>
+            <div class="service">
+              <img src="assets/img/medalha.png" alt="" />
+              <h2>High quality design</h2>
               <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
-            </article>
+            </div>
 
-            <article class="service">
-              <img src="assets/img/estrela.png" alt="" aria-hidden="true" />
-              <h3>Modern Design</h3>
+            <div class="service">
+              <img src="assets/img/estrela.png" alt="" />
+              <h2>Modern Design</h2>
               <p>Donec gravida turpis a vulputate ultricies.</p>
-            </article>
+            </div>
 
-            <article class="service">
-              <img src="assets/img/relogio.png" alt="" aria-hidden="true" />
-              <h3>Regular updates</h3>
+            <div class="service">
+              <img src="assets/img/relogio.png" alt="" />
+              <h2>Regular updates</h2>
               <p>Pellentesque nec nulla ligula</p>
-            </article>
+            </div>
 
-            <article class="service">
-              <img src="assets/img/balao.png" alt="" aria-hidden="true" />
-              <h3>fast and free support</h3>
+            <div class="service">
+              <img src="assets/img/balao.png" alt="" />
+              <h2>fast and free support</h2>
               <p>Quem num gosta di mé, boa gentis num é</p>
-            </article>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="default light" id="projects">
-        <header>
-          <h2 class="title">Our projects</h2>
-          <p class="description">What we Create</p>
-        </header>
-
+      <section class="default light">
+        <div class="title">Our projects</div>
+        <div class="description">What we Create</div>
         <div class="body">
           <div class="projects">
-            <nav class="projects-list" aria-label="Filtros de projetos">
+            <div class="projects-list">
               <ul>
-                <li><a href="#" class="link">All</a></li>
-                <li><a href="#" class="link">Photos</a></li>
-                <li><a href="#" class="link">Branding</a></li>
-                <li><a href="#" class="link">adverts</a></li>
-                <li><a href="#" class="link">development</a></li>
-                <li><a href="#" class="link">Misc</a></li>
+                <li><a href="" class="link">All</a></li>
+                <li><a href="" class="link">Photos</a></li>
+                <li><a href="" class="link">Branding</a></li>
+                <li><a href="" class="link">adverts</a></li>
+                <li><a href="" class="link">development</a></li>
+                <li><a href="" class="link">Misc</a></li>
               </ul>
-            </nav>
+            </div>
 
             <div class="projects-photos">
-              <article class="photo-img">
-                <div class="photo-info">
-                  <h3>ABOUT</h3>
-                  <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
-                </div>
-                <img src="assets/photoarea/Foto1.png" alt="Projeto 1" />
-              </article>
-
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto2.png" alt="Projeto 2" />
+                <img src="assets/photoarea/Foto1.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto3.png" alt="Projeto 3" />
+                <img src="assets/photoarea/Foto2.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto4.png" alt="Projeto 4" />
+                <img src="assets/photoarea/Foto3.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto5.png" alt="Projeto 5" />
+                <img src="assets/photoarea/Foto4.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto6.png" alt="Projeto 6" />
+                <img src="assets/photoarea/Foto5.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto7.png" alt="Projeto 7" />
+                <img src="assets/photoarea/Foto6.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto8.png" alt="Projeto 8" />
+                <img src="assets/photoarea/Foto7.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto9.png" alt="Projeto 9" />
+                <img src="assets/photoarea/Foto8.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto10.png" alt="Projeto 10" />
+                <img src="assets/photoarea/Foto9.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto11.png" alt="Projeto 11" />
+                <img src="assets/photoarea/Foto10.png" alt="" />
               </div>
 
               <div class="photo-img">
                 <div class="photo-info">
-                  <h3>ABOUT</h3>
+                  <h2>ABOUT</h2>
                   <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
                 </div>
-                <img src="assets/photoarea/Foto12.png" alt="Projeto 12" />
+                <img src="assets/photoarea/Foto11.png" alt="" />
+              </div>
+
+              <div class="photo-img">
+                <div class="photo-info">
+                  <h2>ABOUT</h2>
+                  <p>Mussum Ipsum, cacilds vidis litro abertis.</p>
+                </div>
+                <img src="assets/photoarea/Foto12.png" alt="" />
               </div>
             </div>
 
-            <a class="blink" href="#">MORE PROJECTS</a>
+            <a class="blink" href="">MORE PROJECTS</a>
           </div>
         </div>
       </section>
 
-      <section class="default dark bg-team" id="team">
-        <header>
-          <h2 class="title">Our team</h2>
-          <p class="description">Our co-workers</p>
-        </header>
+      <section class="default dark bg-team">
+        <div class="title">Our team</div>
+        <div class="description">Our co-workers</div>
         <div class="body">
           <div class="our-team">
             <div class="sliders">
-              <article class="slide">
+              <div class="slide">
                 <div class="slidearea">
                   <img class="imgS" src="assets/media/mulher1.png" alt="" />
                   <div class="description-team">
@@ -288,193 +244,125 @@
                     <p class="p-team">Master Mind</p>
                   </div>
 
-                  <nav
-                    class="redes-team"
-                    aria-label="Redes sociais de Jane Doe"
-                  >
-                    <a href="" class="icons" aria-label="Facebook"
-                      ><i class="lab la-facebook"></i
-                    ></a>
-
-                    <a href="" class="icons" aria-label="Google"
-                      ><i class="lab la-google"></i
-                    ></a>
-                    <a href="" class="icons" aria-label="linkedIn"
+                  <div class="redes-team">
+                    <a href="" class="icons"><i class="lab la-facebook"></i></a>
+                    <a href="" class="icons"><i class="lab la-google"></i></a>
+                    <a href="" class="icons"
                       ><i class="lab la-linkedin-in"></i
                     ></a>
-                    <a href="" class="icons" aria-label="Instagram"
+                    <a href="" class="icons"
                       ><i class="lab la-instagram"></i
                     ></a>
-                    <a href="" class="icons" aria-label="Twitter"
-                      ><i class="lab la-twitter"></i
-                    ></a>
-                    <a href="" class="icons" aria-label="Youtube"
+                    <a href="" class="icons"><i class="lab la-twitter"></i></a>
+                    <a href="" class="icons"
                       ><i class="lab la-youtube-square"></i
                     ></a>
-                    <a href="" class="icons" aria-label="Mais opções"
+                    <a href="" class="icons"
                       ><i class="las la-ellipsis-h"></i
                     ></a>
-                  </nav>
+                  </div>
                 </div>
-              </article>
-              <article class="slide">
+              </div>
+              <div class="slide">
                 <div class="slidearea">
                   <img class="imgS" src="assets/media/homem1.png" alt="" />
                   <div class="description-team">
                     <h3>Mike Shiller</h3>
                     <p class="p-team">Creative head</p>
-                    <nav
-                      class="redes-team"
-                      aria-label="Redes sociais de Mike Shiler"
-                    >
-                      <a href="" class="icons" aria-label="Facebook"
+                    <div class="redes-team">
+                      <a href="" class="icons"
                         ><i class="lab la-facebook"></i
                       ></a>
-
-                      <a href="" class="icons" aria-label="Google"
-                        ><i class="lab la-google"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="linkedIn"
+                      <a href="" class="icons"><i class="lab la-google"></i></a>
+                      <a href="" class="icons"
                         ><i class="lab la-linkedin-in"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Instagram"
+                      <a href="" class="icons"
                         ><i class="lab la-instagram"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Twitter"
+                      <a href="" class="icons"
                         ><i class="lab la-twitter"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Youtube"
+                      <a href="" class="icons"
                         ><i class="lab la-youtube-square"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Mais opções"
+                      <a href="" class="icons"
                         ><i class="las la-ellipsis-h"></i
                       ></a>
-                    </nav>
+                    </div>
                   </div>
                 </div>
-              </article>
-              <article class="slide">
+              </div>
+              <div class="slide">
                 <div class="slidearea">
-                  <img
-                    class="imgS"
-                    src="assets/media/mulher2.png"
-                    alt="Foto de Anna"
-                  />
+                  <img class="imgS" src="assets/media/mulher2.png" alt="" />
                   <div class="description-team">
                     <h3>Anna</h3>
                     <p class="p-team">Technical head</p>
-                    <nav class="redes-team" aria-label="Redes sociais de Anna">
-                      <a href="" class="icons" aria-label="Facebook"
+                    <div class="redes-team">
+                      <a href="" class="icons"
                         ><i class="lab la-facebook"></i
                       ></a>
-
-                      <a href="" class="icons" aria-label="Google"
-                        ><i class="lab la-google"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="linkedIn"
+                      <a href="" class="icons"><i class="lab la-google"></i></a>
+                      <a href="" class="icons"
                         ><i class="lab la-linkedin-in"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Instagram"
+                      <a href="" class="icons"
                         ><i class="lab la-instagram"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Twitter"
+                      <a href="" class="icons"
                         ><i class="lab la-twitter"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Youtube"
+                      <a href="" class="icons"
                         ><i class="lab la-youtube-square"></i
                       ></a>
-                      <a href="" class="icons" aria-label="Mais opções"
+                      <a href="" class="icons"
                         ><i class="las la-ellipsis-h"></i
                       ></a>
-                    </nav>
+                    </div>
                   </div>
                 </div>
-              </article>
+              </div>
             </div>
           </div>
 
-          <div
-            class="pointers"
-            role="tablist"
-            aria-label="Navegação de membros da equipe"
-          >
-            <button
-              class="pointer active"
-              role="tab"
-              aria-selected="true"
-              aria-label="Membro 1"
-            ></button>
-            <button
-              class="pointer"
-              role="tab"
-              aria-selected="false"
-              aria-label="Membro 2"
-            ></button>
-            <button
-              class="pointer"
-              role="tab"
-              aria-selected="false"
-              aria-label="Membro 3"
-            ></button>
+          <div class="pointers">
+            <div class="pointer active"></div>
+            <div class="pointer"></div>
+            <div class="pointer"></div>
           </div>
         </div>
       </section>
 
-      <section class="default light" id="clients">
+      <section class="default light">
         <div class="title">Happy Clients</div>
         <div class="description">Cliente Reviews</div>
         <div class="body client">
-          <figure>
-            <img class="imgclient" src="assets/media/homem2.png" alt="" />
+          <img class="imgclient" src="assets/media/homem2.png" alt="" />
 
-            <figcaption class="description-client">
-              <h3>John Doe</h3>
-              <span class="h3">Head of PR Departament</span>
-            </figcaption>
+          <div class="description-client">
+            <h3>John Doe</h3>
+            <p class="h3">Head of PR Departament</p>
+          </div>
+          <img class="imgquote" src="assets/img/quote.png" alt="" />
+          <p class="p-client">
+            Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum
+            girarzis, nisi eros vermeio. Detraxit consequat et quo num tendi
+            nada. Nullam volutpat risus nec leo commodo, ut interdum diam
+            laoreet. Sed non consequat odio. Quem manda na minha terra soy yo!
+          </p>
 
-            <img class="imgquote" src="assets/img/quote.png" alt="" />
-
-            <blockquote>
-              <p class="p-client">
-                Mussum Ipsum, cacilds vidis litro abertis. Mé faiz elementum
-                girarzis, nisi eros vermeio. Detraxit consequat et quo num tendi
-                nada. Nullam volutpat risus nec leo commodo, ut interdum diam
-                laoreet. Sed non consequat odio. Quem manda na minha terra soy
-                yo!
-              </p>
-            </blockquote>
-          </figure>
-
-          <div
-            class="pointers"
-            role="tablist"
-            aria-label="Navegação de depoimentos"
-          >
-            <button
-              class="pointer active"
-              role="tab"
-              aria-selected="true"
-              aria-label="Depoimento 1"
-            ></button>
-            <button
-              class="pointer"
-              role="tab"
-              aria-selected="false"
-              aria-label="Depoimento 2"
-            ></button>
-            <button
-              class="pointer"
-              role="tab"
-              aria-selected="false"
-              aria-label="Depoimento 3"
-            ></button>
+          <div class="pointers">
+            <div class="pointer active"></div>
+            <div class="pointer"></div>
+            <div class="pointer"></div>
           </div>
         </div>
       </section>
 
       <section class="unique">
         <div class="section-empresas">
-          <img src="assets/media/empresa1.png" alt="Logo empresa tal" />
+          <img src="assets/media/empresa1.png" alt="" />
           <img src="assets/media/empresa2.png" alt="" />
           <img src="assets/media/empresa3.png" alt="" />
           <img src="assets/media/empresa4.png" alt="" />
@@ -483,215 +371,189 @@
         </div>
       </section>
 
-      <section class="default light" id="price">
-        <header>
-          <h2 class="title">Price</h2>
-          <p class="description">Pricing table</p>
-        </header>
+      <section class="default light">
+        <div class="title">Price</div>
+        <div class="description">Pricing table</div>
         <div class="body cards">
-          <article class="card">
+          <div class="card">
             <div class="card-content">
-              <h3 class="title-card">EXPRESS</h3>
+              <p class="title-card">EXPRESS</p>
               <div>
                 <span class="price">$ 9.99</span>
                 <p class="month">/MONTH</p>
               </div>
-
-              <ul>
-                <li class="price-content">Tracking Issues</li>
-                <li class="price-content">Add bugs through email</li>
-                <li class="price-content">Notifications</li>
-                <li class="price-content">Time tracking</li>
-                <li class="price-content">Custom views</li>
-              </ul>
+              <p class="price-content">Tracking Issues</p>
+              <p class="price-content">_</p>
+              <p class="price-content">Add bugs through email</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Notifications</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Time tracking</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Custom views</p>
 
               <a class="blink" href="">CHOOSE</a>
             </div>
-          </article>
-          <article class="card">
+          </div>
+          <div class="card">
             <div class="card-content">
-              <h3 class="title-card">STANDARD</h3>
+              <p class="title-card">EXPRESS</p>
               <div>
                 <span class="price">$ 14.99</span>
                 <p class="month">/MONTH</p>
               </div>
-              <ul>
-                <li class="price-content">Tracking Issues</li>
-                <li class="price-content">Add bugs through email</li>
-                <li class="price-content">Notifications</li>
-                <li class="price-content">Time tracking</li>
-                <li class="price-content">Custom views</li>
-              </ul>
+              <p class="price-content">Tracking Issues</p>
+              <p class="price-content">_</p>
+              <p class="price-content">Add bugs through email</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Notifications</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Time tracking</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Custom views</p>
 
-              <a class="blink" href="#price">CHOOSE</a>
+              <a class="blink" href="">CHOOSE</a>
             </div>
-          </article>
-
-          <article class="card">
+          </div>
+          <div class="card">
             <div class="card-content">
-              <h3 class="title-card">PREMIUM</h3>
+              <p class="title-card">EXPRESS</p>
               <div>
                 <span class="price">$ 19.99</span>
                 <p class="month">/MONTH</p>
               </div>
-              <ul>
-                <li class="price-content">Tracking Issues</li>
-                <li class="price-content">Add bugs through email</li>
-                <li class="price-content">Notifications</li>
-                <li class="price-content">Time tracking</li>
-                <li class="price-content">Custom views</li>
-              </ul>
+              <p class="price-content">Tracking Issues</p>
+              <p class="price-content">_</p>
+              <p class="price-content">Add bugs through email</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Notifications</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Time tracking</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Custom views</p>
 
-              <a class="blink" href="#price">CHOOSE</a>
+              <a class="blink" href="">CHOOSE</a>
             </div>
-          </article>
-          <article class="card">
+          </div>
+          <div class="card">
             <div class="card-content">
-              <h3 class="title-card">ULTIMATE</h3>
+              <p class="title-card">EXPRESS</p>
               <div>
                 <span class="price">$ 24.99</span>
                 <p class="month">/MONTH</p>
               </div>
-              <ul>
-                <li class="price-content">Tracking Issues</li>
-                <li class="price-content">Add bugs through email</li>
-                <li class="price-content">Notifications</li>
-                <li class="price-content">Time tracking</li>
-                <li class="price-content">Custom views</li>
-              </ul>
+              <p class="price-content">Tracking Issues</p>
+              <p class="price-content">_</p>
+              <p class="price-content">Add bugs through email</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Notifications</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Time tracking</p>
+              <span class="price-content">_</span>
+              <p class="price-content">Custom views</p>
 
-              <a class="blink" href="#price">CHOOSE</a>
+              <a class="blink" href="">CHOOSE</a>
             </div>
-          </article>
+          </div>
         </div>
       </section>
 
       <section class="default light bg-premium">
-        <header>
-          <h2 class="title">Premium</h2>
-          <p class="description">Even More features available</p>
-        </header>
+        <div class="title">Premium</div>
+        <div class="description">Even More features available</div>
 
         <div class="body containerp">
-          <article class="premium-container">
+          <section class="premium-container">
             <div class="premium-content">
-              <figure>
-                <img
-                  class="livro"
-                  src="assets/media/livros.png"
-                  alt="Ilustração de livros"
-                />
-              </figure>
+              <img class="livro" src="assets/media/livros.png" alt="" />
 
               <div>
                 <div class="description-premium">
-                  <img src="assets/img/check.png" alt="" aria-hidden="true" />
+                  <div><img src="assets/img/check.png" alt="" /></div>
 
                   <div class="desc-text">
-                    <h3>First Feature</h3>
+                    <h2>First Feature</h2>
                     <p>
                       Casamentiss faiz malandris se pirulitá. <br />
                       Si num tem leite então bota uma pinga aí cumpadi!
                     </p>
-
-                    <ul class="desc-feature">
-                      <li>FEATURE ONE</li>
-                      <li>FEATURE TWO</li>
-                      <li>FEATURE THREE</li>
-                    </ul>
+                    <div class="desc-feature">
+                      <p>- FEATURE ONE</p>
+                      <p>- FEATURE TWO</p>
+                      <p>- FEATURE THREE</p>
+                    </div>
                   </div>
                 </div>
                 <div class="description-premium">
-                  <img src="assets/img/check.png" alt="" />
+                  <div><img src="assets/img/check.png" alt="" /></div>
 
                   <div class="desc-text">
-                    <h3>Second Feature</h3>
+                    <h2>Second Feature</h2>
                     <p>Negão é teu passadis, eu sou faxa pretis.</p>
                   </div>
                 </div>
 
                 <div class="description-premium">
-                  <img src="assets/img/check.png" alt="" />
+                  <div><img src="assets/img/check.png" alt="" /></div>
 
                   <div class="desc-text">
-                    <h3>Third Feature</h3>
+                    <h2>Third Feature</h2>
                     <p>Negão é teu passadis, eu sou faxa pretis.</p>
                   </div>
                 </div>
               </div>
             </div>
-          </article>
+          </section>
 
-          <div
-            class="pointers"
-            role="tablist"
-            aria-label="Navegação de recursos premium"
-          >
-            <button
-              class="pointer active"
-              role="tab"
-              aria-selected="true"
-              aria-label="Recurso 1"
-            ></button>
-            <button
-              class="pointer"
-              role="tab"
-              aria-selected="false"
-              aria-label="Recurso 2"
-            ></button>
-            <button
-              class="pointer"
-              role="tab"
-              aria-selected="false"
-              aria-label="Recurso 3"
-            ></button>
+          <div class="pointers">
+            <div class="pointer active"></div>
+            <div class="pointer"></div>
+            <div class="pointer"></div>
           </div>
           <a class="blink" href="">CHOOSE</a>
         </div>
       </section>
 
-      <section class="default dark" id="facts">
-        <header>
-          <h2 class="title">Some facts</h2>
-          <p class="description">About our work</p>
-        </header>
+      <section class="default dark">
+        <div class="title">Some facts</div>
+        <div class="description">About our work</div>
         <div class="body">
           <div class="section-some">
-            <article class="some-service">
-              <strong>1000</strong>
-              <div class="bar" aria-hidden="true"></div>
-              <h3>Design projects</h3>
+            <div class="some-service">
+              <h1>1000</h1>
+              <div class="bar"></div>
+              <h2>Design projects</h2>
               <p>
                 Praesent metus urna, feugiata placerat elemntum at leo larit
               </p>
-            </article>
+            </div>
 
-            <article class="some-service">
-              <strong>900</strong>
-              <div class="bar" aria-hidden="true"></div>
-              <h3>Photos</h3>
+            <div class="some-service">
+              <h1>900</h1>
+              <div class="bar"></div>
+              <h2>Photos</h2>
               <p>
                 Praesent metus urna, feugiata placerat elemntum at leo larit
               </p>
-            </article>
+            </div>
 
-            <article class="some-service">
-              <strong>500</strong>
-              <div class="bar" aria-hidden="true"></div>
-              <h3>Marketing ideas</h3>
+            <div class="some-service">
+              <h1>500</h1>
+              <div class="bar"></div>
+              <h2>Marketing ideas</h2>
               <p>
                 Praesent metus urna, feugiata placerat elemntum at leo larit
               </p>
-            </article>
+            </div>
 
-            <article class="some-service">
-              <strong>100</strong>
-              <div class="bar" aria-hidden="true"></div>
-              <h3>Exhibitions</h3>
+            <div class="some-service">
+              <h1>100</h1>
+              <div class="bar"></div>
+              <h2>Exhibitions</h2>
               <p>
                 Praesent metus urna, feugiata placerat elemntum at leo larit
               </p>
-            </article>
+            </div>
           </div>
         </div>
       </section>
@@ -699,111 +561,90 @@
       <section class="share-bar">
         <div class="body share">
           <div class="redes-share">
-            <img src="assets/img/share.png" alt="Ícone compartilhar" />
+            <div><img src="assets/img/share.png" alt="" /></div>
             <span>TELL ABOUT US:</span>
           </div>
 
-          <a
-            href="#"
-            class="redes-share"
-            aria-label="Compartilhar no Twitter - 152 compartilhamentos"
-          >
+          <div class="redes-share">
             <div class="bg-icone" style="background-color: #34c5f1">
-              <img src="assets/img/twitter.png" alt="" aria-hidden="true" />
+              <img src="assets/img/twitter.png" alt="" />
             </div>
             <span>152</span>
-          </a>
+          </div>
 
-          <a
-            href="#"
-            class="redes-share"
-            aria-label="Compartilhar no LinkedIn - 31 compartilhamentos"
-          >
+          <div class="redes-share">
             <div class="bg-icone" style="background-color: #137cb5">
-              <img src="assets/img/linkedin.png" alt="" aria-hidden="true" />
+              <img src="assets/img/linkedin.png" alt="" />
             </div>
             <span>31</span>
-          </a>
+          </div>
 
-          <a
-            href="#"
-            class="redes-share"
-            aria-label="Compartilhar no Facebook - 165 compartilhamentos"
-          >
+          <div class="redes-share">
             <div class="bg-icone facebook" style="background-color: #336298">
-              <img src="assets/img/facebook.png" alt="" aria-hidden="true" />
+              <img src="assets/img/facebook.png" alt="" />
             </div>
             <span>165</span>
-          </a>
+          </div>
 
-          <a
-            href="#"
-            class="redes-share"
-            aria-label="Compartilhar no Google Plus - 22 compartilhamentos"
-          >
+          <div class="redes-share">
             <div class="bg-icone" style="background-color: #e64238">
-              <img src="assets/img/googleplus.png" alt="" aria-hidden="true" />
+              <img src="assets/img/googleplus.png" alt="" />
             </div>
             <span>22</span>
-          </a>
+          </div>
 
-          <a
-            href="#"
-            class="redes-share"
-            aria-label="Compartilhar no Pinterest - 165 compartilhamentos"
-          >
+          <div class="redes-share">
             <div class="bg-icone pint" style="background-color: #b71c2a">
-              <img src="assets/img/pinterest.png" alt="" aria-hidden="true" />
+              <img src="assets/img/pinterest.png" alt="" />
             </div>
             <span>165</span>
-          </a>
+          </div>
         </div>
       </section>
 
       <section class="default light" id="contact">
-        <header>
-          <h2 class="title">Contact us</h2>
-          <p class="description">Our agency located in Melbourne, Australia</p>
-        </header>
+        <div class="title">Contact us</div>
+        <div class="description">
+          Our agency located in melbourne, australia
+        </div>
         <div class="body">
           <section class="section-contact">
-            <form action="#" method="post">
+            <form>
               <div class="name-mail">
-                <div>
-                  <label for="name">NAME</label>
-                  <input type="text" id="name" name="name" required />
-                </div>
+                <fieldset>
+                  <label for="">NAME</label>
+                  <input type="text" />
+                </fieldset>
 
-                <div>
-                  <label for="email">E-MAIL</label>
-                  <input type="email" id="email" name="email" required />
-                </div>
+                <fieldset>
+                  <label for="">E-MAIL</label>
+                  <input type="text" />
+                </fieldset>
               </div>
 
-              <div>
-                <label for="subject">SUBJECT</label>
-                <input type="text" id="subject" name="subject" required />
-              </div>
+              <fieldset>
+                <label for="">SUBJECT</label>
+                <input type="text" />
+              </fieldset>
 
-              <div>
-                <label for="message">MESSAGE</label>
-                <input type="text" name="message" id="message" required />
-                <!-- design nao requer textarea -->
-              </div>
-
-              <button type="submit" class="blink">SEND MESSAGE</button>
+              <fieldset>
+                <label for="">MESSAGE</label>
+                <input type="text" />
+              </fieldset>
             </form>
+
+            <a class="blink" href="">SEND MESSAGE</a>
           </section>
         </div>
       </section>
 
       <section class="default bg-map">
         <div class="body">
-          <address class="informations">
+          <div class="informations">
             <div class="center">
               <div class="acess">
                 <div class="bg-icone">
-                  <img src="assets/img/carta.png" alt="" aria-hidden="true" />
+                  <img src="assets/img/carta.png" alt="" />
                 </div>
                 <p>PO Box 16122 Collins Street West Victoria 8007 Australia</p>
               </div>
@@ -819,35 +660,24 @@
                 <div class="bg-icone">
                   <img src="assets/img/telefone.png" alt="" />
                 </div>
-                <p><a href="tel:+0001234567">+00 0 1234 5678</a></p>
+                <p>+00 0 1234 5678</p>
               </div>
 
               <div class="acess">
                 <div class="bg-icone">
                   <img src="assets/img/arroba.png" alt="" />
                 </div>
-                <p>
-                  <a href="mailto:bulkingdesign@gmail.com"
-                    >bulkingdesign@gmail.com</a
-                  >
-                </p>
+                <p>bulkingdesign@gmail.com</p>
               </div>
 
               <div class="acess">
                 <div class="bg-icone">
                   <img src="assets/img/web.png" alt="" />
                 </div>
-                <p>
-                  <a
-                    href="https://www.envato.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >www.envato.com</a
-                  >
-                </p>
+                <p>www.envato.com</p>
               </div>
             </div>
-          </address>
+          </div>
         </div>
       </section>
     </main>
@@ -856,27 +686,16 @@
       <div class="body footer">
         <div class="footer-redes">
           <div class="redes-team">
-            <a href="#" class="icons" aria-label="Facebook"
-              ><i class="lab la-facebook"></i
-            ></a>
-            <a href="#" class="icons" aria-label="Facebook"
-              ><i class="lab la-google"></i
-            ></a>
-            <a href="#" class="icons" aria-label="LinkedIn"
-              ><i class="lab la-linkedin-in"></i
-            ></a>
-            <a href="#" class="icons" aria-label="Instagram"
-              ><i class="lab la-instagram"></i
-            ></a>
-            <a href="#" class="icons" aria-label="Twitter"
-              ><i class="lab la-twitter"></i
-            ></a>
-            <a href="#" class="icons" aria-label="Youtube"
-              ><i class="lab la-youtube-square"></i
-            ></a>
+            <a href="" class="icons"><i class="lab la-facebook"></i></a>
+            <a href="" class="icons"><i class="lab la-google"></i></a>
+            <a href="" class="icons"><i class="lab la-linkedin-in"></i></a>
+            <a href="" class="icons"><i class="lab la-instagram"></i></a>
+            <a href="" class="icons"><i class="lab la-twitter"></i></a>
+            <a href="" class="icons"><i class="lab la-youtube-square"></i></a>
+            <a href="" class="icons"><i class="las la-ellipsis-h"></i></a>
           </div>
 
-          <small>AWAX © 2016</small>
+          <p>AWAX © 2016</p>
         </div>
         <p class="footer-text">
           Mussum Ipsum, cacilds vidis litro abertis. Copo furadis é disculpa de
@@ -889,17 +708,9 @@
         </p>
 
         <div class="footer-mail">
-          <form action="" method="post">
-            <label for="">EMAIL TO SUBSCRIBE</label>
-            <input
-              type="email"
-              id="subscribe-email"
-              name="subscribe-email"
-              placeholder="Seu e-mail"
-              required
-            />
-            <button type="submit" class="blink">SUBSCRIBE</button>
-          </form>
+          <h4>EMAIL TO SUBSCRIBE</h4>
+          <div class="bar-mail"></div>
+          <a class="blink" href="">SUBSCRIBE</a>
         </div>
       </div>
     </footer>
