@@ -22,7 +22,7 @@
     <title>Awax - Design & Communication</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="header-content">
         <a href="#home" aria-label="Ir para o inicio">
           <img class="img" src="assets/img/Logo.png" alt="Logo da Awax"
@@ -44,6 +44,7 @@
     </header>
     <!-- aria-label para acessibilidade -->
     <main>
+      <!-- Banner -->
       <section class="banner" id="home" aria-label="Banner principal">
         <div class="sliders">
           <article class="slide">
@@ -311,48 +312,44 @@
                     <a href="" class="icons" aria-label="Youtube"
                       ><i class="lab la-youtube-square"></i
                     ></a>
-                    <a href="" class="icons" aria-label="Mais opções"
-                      ><i class="las la-ellipsis-h"></i
-                    ></a>
                   </nav>
                 </div>
               </article>
+
               <article class="slide">
                 <div class="slidearea">
                   <img class="imgS" src="assets/media/homem1.png" alt="" />
                   <div class="description-team">
                     <h3>Mike Shiller</h3>
                     <p class="p-team">Creative head</p>
-                    <nav
-                      class="redes-team"
-                      aria-label="Redes sociais de Mike Shiler"
-                    >
-                      <a href="" class="icons" aria-label="Facebook"
-                        ><i class="lab la-facebook"></i
-                      ></a>
-
-                      <a href="" class="icons" aria-label="Google"
-                        ><i class="lab la-google"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="linkedIn"
-                        ><i class="lab la-linkedin-in"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Instagram"
-                        ><i class="lab la-instagram"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Twitter"
-                        ><i class="lab la-twitter"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Youtube"
-                        ><i class="lab la-youtube-square"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Mais opções"
-                        ><i class="las la-ellipsis-h"></i
-                      ></a>
-                    </nav>
                   </div>
+                  <nav
+                    class="redes-team"
+                    aria-label="Redes sociais de Mike Shiler"
+                  >
+                    <a href="" class="icons" aria-label="Facebook"
+                      ><i class="lab la-facebook"></i
+                    ></a>
+
+                    <a href="" class="icons" aria-label="Google"
+                      ><i class="lab la-google"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="linkedIn"
+                      ><i class="lab la-linkedin-in"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="Instagram"
+                      ><i class="lab la-instagram"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="Twitter"
+                      ><i class="lab la-twitter"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="Youtube"
+                      ><i class="lab la-youtube-square"></i
+                    ></a>
+                  </nav>
                 </div>
               </article>
+
               <article class="slide">
                 <div class="slidearea">
                   <img
@@ -363,31 +360,28 @@
                   <div class="description-team">
                     <h3>Anna</h3>
                     <p class="p-team">Technical head</p>
-                    <nav class="redes-team" aria-label="Redes sociais de Anna">
-                      <a href="" class="icons" aria-label="Facebook"
-                        ><i class="lab la-facebook"></i
-                      ></a>
-
-                      <a href="" class="icons" aria-label="Google"
-                        ><i class="lab la-google"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="linkedIn"
-                        ><i class="lab la-linkedin-in"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Instagram"
-                        ><i class="lab la-instagram"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Twitter"
-                        ><i class="lab la-twitter"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Youtube"
-                        ><i class="lab la-youtube-square"></i
-                      ></a>
-                      <a href="" class="icons" aria-label="Mais opções"
-                        ><i class="las la-ellipsis-h"></i
-                      ></a>
-                    </nav>
                   </div>
+                  <nav class="redes-team" aria-label="Redes sociais de Anna">
+                    <a href="" class="icons" aria-label="Facebook"
+                      ><i class="lab la-facebook"></i
+                    ></a>
+
+                    <a href="" class="icons" aria-label="Google"
+                      ><i class="lab la-google"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="linkedIn"
+                      ><i class="lab la-linkedin-in"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="Instagram"
+                      ><i class="lab la-instagram"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="Twitter"
+                      ><i class="lab la-twitter"></i
+                    ></a>
+                    <a href="" class="icons" aria-label="Youtube"
+                      ><i class="lab la-youtube-square"></i
+                    ></a>
+                  </nav>
                 </div>
               </article>
             </div>
@@ -421,15 +415,18 @@
       </section>
 
       <section class="default light" id="clients">
-        <div class="title">Happy Clients</div>
-        <div class="description">Cliente Reviews</div>
+        <header>
+          <h2 class="title">Happy Clients</h2>
+          <p class="description">Cliente Reviews</p>
+        </header>
+
         <div class="body client">
           <figure>
             <img class="imgclient" src="assets/media/homem2.png" alt="" />
 
             <figcaption class="description-client">
               <h3>John Doe</h3>
-              <span class="h3">Head of PR Departament</span>
+              <span>Head of PR Departament</span>
             </figcaption>
 
             <img class="imgquote" src="assets/img/quote.png" alt="" />
@@ -497,7 +494,7 @@
                 <p class="month">/MONTH</p>
               </div>
 
-              <ul>
+              <ul class="card-list">
                 <li class="price-content">Tracking Issues</li>
                 <li class="price-content">Add bugs through email</li>
                 <li class="price-content">Notifications</li>
@@ -515,7 +512,7 @@
                 <span class="price">$ 14.99</span>
                 <p class="month">/MONTH</p>
               </div>
-              <ul>
+              <ul class="card-list">
                 <li class="price-content">Tracking Issues</li>
                 <li class="price-content">Add bugs through email</li>
                 <li class="price-content">Notifications</li>
@@ -534,7 +531,7 @@
                 <span class="price">$ 19.99</span>
                 <p class="month">/MONTH</p>
               </div>
-              <ul>
+              <ul class="card-list">
                 <li class="price-content">Tracking Issues</li>
                 <li class="price-content">Add bugs through email</li>
                 <li class="price-content">Notifications</li>
@@ -552,7 +549,7 @@
                 <span class="price">$ 24.99</span>
                 <p class="month">/MONTH</p>
               </div>
-              <ul>
+              <ul class="card-list">
                 <li class="price-content">Tracking Issues</li>
                 <li class="price-content">Add bugs through email</li>
                 <li class="price-content">Notifications</li>
@@ -566,7 +563,7 @@
         </div>
       </section>
 
-      <section class="default light bg-premium">
+      <section class="default bgpremium">
         <header>
           <h2 class="title">Premium</h2>
           <p class="description">Even More features available</p>
@@ -697,7 +694,7 @@
       </section>
 
       <section class="share-bar">
-        <div class="body share">
+        <div class="share">
           <div class="redes-share">
             <img src="assets/img/share.png" alt="Ícone compartilhar" />
             <span>TELL ABOUT US:</span>
@@ -769,23 +766,23 @@
           <section class="section-contact">
             <form action="#" method="post">
               <div class="name-mail">
-                <div>
+                <div class="campo">
                   <label for="name">NAME</label>
                   <input type="text" id="name" name="name" required />
                 </div>
 
-                <div>
+                <div class="campo">
                   <label for="email">E-MAIL</label>
                   <input type="email" id="email" name="email" required />
                 </div>
               </div>
 
-              <div>
+              <div class="campo">
                 <label for="subject">SUBJECT</label>
                 <input type="text" id="subject" name="subject" required />
               </div>
 
-              <div>
+              <div class="campo">
                 <label for="message">MESSAGE</label>
                 <input type="text" name="message" id="message" required />
                 <!-- design nao requer textarea -->
@@ -853,7 +850,7 @@
     </main>
 
     <footer class="default dark section-footer">
-      <div class="body footer">
+      <div class="body">
         <div class="footer-redes">
           <div class="redes-team">
             <a href="#" class="icons" aria-label="Facebook"
@@ -889,7 +886,7 @@
         </p>
 
         <div class="footer-mail">
-          <form action="" method="post">
+          <form action="" method="post" class="form-email">
             <label for="">EMAIL TO SUBSCRIBE</label>
             <input
               type="email"
